@@ -23,4 +23,7 @@ async function runBot() {
   }
 }
 
+
+console.log("FIREBASE_URL:", FIREBASE_URL);
+
 runBot();
