@@ -24,4 +24,4 @@ jobs:
       - name: Run Bot
         env:
           FIREBASE_URL: ${{ secrets.FIREBASE_URL }}
-        run: node index.js
+        run: node path/to/index.js
